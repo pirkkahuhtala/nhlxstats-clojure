@@ -1,0 +1,8 @@
+version: '1'
+services:
+    db:
+      restart: always 
+      image: postgres
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres

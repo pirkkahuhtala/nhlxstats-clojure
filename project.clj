@@ -5,7 +5,8 @@
                  [org.clojure/java.jdbc "0.7.0"]
                  [org.postgresql/postgresql "42.1.4"]
                  [postgre-types "0.0.4"]
-                 [cheshire "5.8.0"]]
+                 [cheshire "5.8.0"]
+                 [ring-cors "0.1.11"]]
 
   :ring {:handler nhlxstats.core/app}
   :profiles {:dev
